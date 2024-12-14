@@ -100,7 +100,7 @@ export default function Services() {
 						<h2 className="text-2xl font-medium">{item.title}</h2>
 						<p className="my-5">
 							Lorem Ipsum is simply dummy text of the printing and typesetting
-							industry. Lorem Ipsum has been the industry's standard dummy text
+							industry. Lorem Ipsum has been the industry&apos;s standard dummy text
 							ever since the 1500s.
 						</p>
 						<button className="rounded-[50px] p-2 bg-white text-stone-800 border-2 hover:bg-stone-800 hover:text-stone-200 transition-all duration-150">

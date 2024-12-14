@@ -47,7 +47,7 @@ export default function Services() {
 	};
 
 	return (
-		<motion.div className="min-h-screen flex flex-col justify-between">
+		<motion.div className="min-h-dvh flex flex-col justify-between">
 			<motion.div
 				className="md:self-end self-center flex flex-col md:flex-row items-center gap-5 my-16"
 				{...getAnimationProps()}
@@ -87,14 +87,14 @@ export default function Services() {
 				</div>
 			</motion.div>
 			<motion.div
-				className="flex flex-col max-w-[1366px] md:m-auto md:flex-row mx-10"
+				className="flex flex-col max-w-[1366px] md:m-auto md:flex-row mx-10 gap-10"
 				{...getAnimationProps(0.4)}
 			>
 				{serviceItems.map((item, index) => (
 					<motion.div
 						key={item.id}
 						onHoverStart={() => setHovered(item.id)}
-						className="p-12 text-center flex flex-col justify-between md:border-[0.5px] border-stone-500 opacity-75 group relative"
+						className={`p-12 text-center flex flex-col justify-between md:border-[0.5px] border-stone-500 opacity-75 group relative ${item.id === 4 ? 'mb-48' : ''} md:mb-0`}
 						{...getAnimationProps(0.6 + index * 0.1)}
 					>
 						<h2 className="text-2xl font-medium">{item.title}</h2>

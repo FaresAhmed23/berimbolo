@@ -6,7 +6,7 @@ import { FaFacebook, FaInstagram } from "react-icons/fa";
 
 export default function Navbar() {
 	return (
-		<nav className="flex items-center justify-between py-6">
+		<nav className="flex items-center justify-center lg:justify-between py-6">
 			<div className="flex flex-shrink-0 items-center">
 				<Link href={"/"} aria-label="Home" className="flex justify-center items-center gap-2">
 					<span className="tracking-tighter text-3xl">Berimbolo Security</span>

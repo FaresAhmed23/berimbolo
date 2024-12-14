@@ -8,7 +8,7 @@ import Services from "./components/Services";
 
 export default function Home() {
 	return (
-		<div className="overflow-x-hidden overflow-y-scroll text-stone-300 snap-y snap-mandatory scroll-smooth h-screen">
+		<div className="overflow-x-hidden overflow-y-scroll text-stone-300 snap-y snap-mandatory scroll-smooth h-dvh">
 			<div className="fixed inset-0 -z-10">
 				<div className="relative h-full w-full bg-black">
 					<div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:19px_29px]"></div>
@@ -16,7 +16,7 @@ export default function Home() {
 				</div>
 			</div>
 			<section
-				className="container mx-auto px-8 snap-center min-h-screen"
+				className="container mx-auto px-8 snap-center min-h-dvh"
 				id="home"
 			>
 				<Navbar />
@@ -25,10 +25,10 @@ export default function Home() {
 			{/* <section className="snap-center min-h-screen" id="about">
 				<Team />
 			</section> */}
-			<section className="snap-center min-h-screen" id="work">
+			<section className="snap-center min-h-dvh" id="work">
 				<Services />
 			</section>
-			<section className="snap-center min-h-screen" id="contact">
+			<section className="snap-center min-h-dvh" id="contact">
 				<Contact />
 			</section>
 		</div>

@@ -57,18 +57,17 @@ export default function Hero() {
 						</motion.h2>
 						<motion.span
 							variants={childVariants}
-							className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent"
+							className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent text-center lg:text-start"
 						>
-							A company that sells and
-installs security systems
+							A company that sells and installs security systems
 						</motion.span>
 						<motion.p
 							variants={childVariants}
-							className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter"
+							className="my-2 max-w-lg py-6 text-xl leading-relaxed tracking-tighter text-center lg:text-start"
 						>
 							Lorem Ipsum is simply dummy text of the printing and typesetting
-							industry. Lorem Ipsum has been the industry's standard dummy text
-							ever since the 1500s.
+							industry. Lorem Ipsum has been the industry&apos;s standard dummy
+							text ever since the 1500s.
 						</motion.p>
 
 						<motion.button

@@ -48,7 +48,7 @@ export default function Contact() {
 			variants={variants}
 			initial="initial"
 			whileInView="animate"
-			className="min-h-screen max-w-[1366px] m-auto flex flex-col items-center justify-between gap-14 md:flex-row p-5"
+			className="min-h-dvh max-w-[1366px] m-auto flex flex-col items-center justify-between gap-14 md:flex-row p-5"
 		>
 			<motion.div variants={variants} className="flex-1 flex flex-col gap-10 md:text-start text-center">
 				<motion.h1 variants={variants} className="md:text-[100px] text-8xl">
@@ -77,7 +77,7 @@ export default function Contact() {
 					<Image src={svg} alt="svg"/>
 				</motion.div>
 				<motion.form
-					className="flex flex-col gap-5 relative"
+					className="flex flex-col gap-5 relative mb-24 md:mb-0"
 					initial={{ opacity: 0 }}
 					whileInView={{ opacity: 1 }}
 					transition={{ delay: 4, duration: 1 }}
